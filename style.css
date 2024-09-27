@@ -20,10 +20,18 @@ body {
   background-color: var(--clr-light);
 }
 
-.container {
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
   width: 80%;
-  margin: 0 auto;
+  margin: 80px;
   border: 10px solid var(--clr-dark);
+}
+
+.container5{
+  text-align: center;
 }
 
 .item {
